@@ -168,8 +168,13 @@ menu {
 }
 
 .aboutme {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   gap: 12px;
+  height: 100%;
+  
+
 
   @media (max-width: 899px) {
     display: flex;
@@ -188,12 +193,12 @@ menu {
 .portrait {
   display: block;
   align-self: flex-start;
-  max-width: 270px;
+  width: 270px;
+  height: auto;
 
   @media (max-width: 899px) {
     display: block;
-    max-width: 220px;
-    min-width: 120px;
+    width: 150px;
     height: auto;
   }
 }
