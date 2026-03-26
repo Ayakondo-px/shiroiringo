@@ -186,11 +186,11 @@ menu {
 }
 
 .portrait {
-  width:clamp(210px, 100%, 270px);
-  height: auto;
+  max-width: 270px;
 
   @media (max-width: 899px) {
-    width:clamp(130px, 100%, 200px);
+    max-width: 220px;
+    min-width: 120px;
     height: auto;
   }
 }
