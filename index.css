@@ -268,3 +268,11 @@ menu {
     font-size: 12px;
   }
 }
+
+a {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 8px; /* 下線の位置 */
+  text-decoration-thickness: 0.5px; /* 太さ */
+  text-decoration-color: #C48686;
+}
